@@ -15,7 +15,8 @@ public class MessageSender {
      
     //URL of the JMS server. DEFAULT_BROKER_URL will just mean that JMS server is on localhost
     //private static String url = ActiveMQConnection.DEFAULT_BROKER_URL;
-	private static String url = "tcp://192.168.56.100:61616";
+	//private static String url = "tcp://192.168.56.100:61616";
+	private static String url = "tcp://172.30.212.21:61616";
 		//tcp://activemq-host.local:61616
     // default broker URL is : tcp://localhost:61616"
     

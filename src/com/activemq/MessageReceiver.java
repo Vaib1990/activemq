@@ -15,8 +15,9 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 public class MessageReceiver {
  
     // URL of the JMS server
-	private static String url = "tcp://192.168.56.100:61616";
-    // default broker URL is : tcp://localhost:61616"
+	//private static String url = "tcp://192.168.56.100:61616";
+    private static String url = "tcp://172.30.212.21:61616";
+	// default broker URL is : tcp://localhost:61616"
  
     // Name of the queue we will receive messages from
     private static String subject = "JCG_QUEUE";
